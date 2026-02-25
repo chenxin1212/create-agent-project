@@ -1,0 +1,26 @@
+{
+  "projectName": "My Agent Project",
+  "description": "A boilerplate project for Claude Code agents",
+  "version": "1.0.0",
+  "settings": {
+    "enableCodeCompletion": true,
+    "enableChat": true,
+    "enableInlineEditing": true,
+    "codeStyle": {
+      "indentSize": 2,
+      "useSpaces": true,
+      "lineEnding": "lf"
+    }
+  },
+  "aiAssistant": {
+    "model": "claude-3-5-sonnet",
+    "temperature": 0.7,
+    "maxTokens": 4096
+  },
+  "features": {
+    "autoSuggestions": true,
+    "contextAwareness": true,
+    "multiFileEditing": true,
+    "refactoring": true
+  }
+}
