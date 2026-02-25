@@ -30,7 +30,7 @@ yarn-error.log*
 
 # IDEs
 .idea/
-.vscode/
+# .vscode/ - Commented out to include VS Code settings for ready-to-use template
 *.swp
 *.swo
 *~

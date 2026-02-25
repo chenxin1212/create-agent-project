@@ -1,33 +1,47 @@
 # Create Agent Project
 
-> Jumpstart your AI agent project with best practices, structured skills, and automation
+> **开箱即用的 AI 智能代理项目模板 | Ready-to-use AI Agent Project Template**
 
-## Overview
+**[中文文档](./README_CN.md)** | **[English](#english)**
 
-This repository provides a complete template for creating AI agent projects with:
+---
 
-- **📚 Structured Skills**: Reusable capabilities for common tasks (code analysis, testing, documentation, debugging, API integration)
-- **🤖 Agent Configuration**: Clear agent.md and claude.md files defining behavior and instructions
-- **🔌 MCP Integration**: Model Context Protocol support for enhanced capabilities (filesystem, git, GitHub, web search, memory)
-- **⚙️ Automation Ready**: Examples and patterns for building automated workflows
-- **📖 Comprehensive Documentation**: Complete guides and examples for all features
+## 🚀 Quick Start
 
-## Quick Start
+**Clone and use immediately - optimized for Claude Code and Cursor!**
 
 ```bash
 # Clone the repository
 git clone https://github.com/chenxin1212/create-agent-project.git
 cd create-agent-project
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-
-# Test MCP servers (optional)
-npx -y @modelcontextprotocol/server-filesystem .
+# One-command setup
+bash setup.sh
 
 # Start building your agent!
 ```
+
+<a name="english"></a>
+## Overview
+
+This is a **ready-to-use** template for creating AI agent projects, optimized for AI IDEs like **Claude Code** and **Cursor**. Just clone and start using - no extra configuration needed!
+
+### ✨ Key Features
+
+- 🎯 **Ready to Use** - Clone and use immediately with Claude Code, Cursor, or any AI IDE
+- 📚 **Structured Skills** - 5 complete, reusable skills (code analysis, testing, documentation, debugging, API integration)
+- 🤖 **AI IDE Optimized** - Pre-configured with `.cursorrules`, `claude.md`, and VS Code settings
+- 🔌 **MCP Integration** - Model Context Protocol servers pre-configured (filesystem, git, GitHub, web search, memory)
+- ⚙️ **Automation Ready** - Complete examples and patterns for building automated workflows
+- 📖 **Bilingual Documentation** - Complete guides in both Chinese and English
+- 🛠️ **One-Command Setup** - `setup.sh` script for instant initialization
+
+### 🎯 Works With
+
+- ✅ **Claude Code** - Reads `claude.md` and `agent.md` automatically
+- ✅ **Cursor** - Uses `.cursorrules` for project-specific AI behavior
+- ✅ **VS Code + GitHub Copilot** - Workspace and settings pre-configured
+- ✅ **Any AI IDE** - Standard project structure works everywhere
 
 ## Features
 

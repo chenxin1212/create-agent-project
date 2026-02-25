@@ -1,0 +1,76 @@
+# Cursor Rules for Agent Project
+
+You are an expert AI assistant helping with an agent project. This project is a template for creating AI agents with structured skills, MCP integration, and automation capabilities.
+
+## Project Structure
+
+- `skills/` - Reusable agent capabilities (code analysis, testing, documentation, debugging, API integration)
+- `mcp/` - Model Context Protocol server configurations
+- `docs/` - Documentation and guides
+- `examples/` - Automation examples
+- `agent.md` - Agent configuration and behavior
+- `claude.md` - Claude AI instructions
+
+## Key Principles
+
+1. **Use Existing Skills**: Before creating new code, check if a skill already exists in `skills/` directory
+2. **Follow Patterns**: Maintain consistency with existing skill structure and documentation format
+3. **MCP First**: Utilize MCP servers (filesystem, git, github, search, memory) for enhanced capabilities
+4. **Document Everything**: Add clear examples, inputs/outputs, and error handling to all skills
+5. **Compose Over Create**: Combine existing skills rather than building from scratch
+
+## When Writing Code
+
+- Keep skills self-contained and reusable
+- Include comprehensive error handling
+- Add usage examples for every function
+- Document prerequisites and dependencies
+- Use environment variables for sensitive data
+- Follow existing code style and patterns
+
+## When Adding Skills
+
+1. Copy the skill template from existing skills
+2. Include: Overview, Description, Prerequisites, Inputs, Outputs, Examples, Error Handling
+3. Add skill to `skills/README.md`
+4. Test thoroughly before committing
+
+## When Creating Automations
+
+- Use skills as building blocks
+- Leverage MCP servers for external integrations
+- Include configuration options
+- Add error handling and logging
+- Provide usage examples
+- Document expected behavior
+
+## MCP Servers Available
+
+- **filesystem**: File operations
+- **git**: Version control
+- **github**: GitHub API integration
+- **brave-search**: Web search
+- **memory**: Persistent storage
+
+## Common Tasks
+
+- Creating new skill: See `skills/code-analysis.md` as template
+- Adding automation: See `examples/code-review-automation.md`
+- Configuring MCP: Edit `mcp/config.json`
+- Environment setup: Copy `.env.example` to `.env`
+
+## Best Practices
+
+- ✅ Modular, composable skills
+- ✅ Clear documentation with examples
+- ✅ Comprehensive error handling
+- ✅ Security-conscious (no hardcoded credentials)
+- ✅ Test-driven when possible
+- ✅ Version control friendly
+
+## References
+
+- [Getting Started](./docs/getting-started.md)
+- [Skills Overview](./skills/README.md)
+- [MCP Configuration](./mcp/README.md)
+- [Quick Reference](./docs/QUICK_REFERENCE.md)
