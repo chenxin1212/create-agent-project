@@ -24,6 +24,8 @@ bash setup.sh
 # 开始使用！
 ```
 
+**📖 详细使用指南：[USAGE.md](./USAGE.md)** - Cursor、Claude Code 和 VS Code 的分步说明
+
 ### ✨ 特性
 
 - 🎯 **开箱即用** - 克隆后立即可用，无需额外配置

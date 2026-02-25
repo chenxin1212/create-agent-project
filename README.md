@@ -21,6 +21,8 @@ bash setup.sh
 # Start building your agent!
 ```
 
+**📖 Detailed Usage Guide: [USAGE.md](./USAGE.md)** - Step-by-step instructions for Cursor, Claude Code, and VS Code
+
 <a name="english"></a>
 ## Overview
 
