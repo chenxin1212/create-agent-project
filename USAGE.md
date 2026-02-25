@@ -1,5 +1,7 @@
 # How to Use This Project / 使用指南
 
+> **跨 IDE 兼容 / Cross-IDE Compatible**: 本项目完全兼容 Cursor、Claude Code 和 GitHub Copilot。详见 [IDE兼容性指南](./docs/IDE_COMPATIBILITY.md)
+
 [English](#english) | [中文](#chinese)
 
 ---

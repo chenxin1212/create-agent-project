@@ -41,9 +41,12 @@ This is a **ready-to-use** template for creating AI agent projects, optimized fo
 ### 🎯 Works With
 
 - ✅ **Claude Code** - Reads `claude.md` and `agent.md` automatically
-- ✅ **Cursor** - Uses `.cursorrules` for project-specific AI behavior
+- ✅ **Cursor** - Uses `.cursorrules` and is **fully compatible** with Claude Code instructions
+- ✅ **GitHub Copilot Workspace** - Reads `.github/agents/custom_instructions.md`
 - ✅ **VS Code + GitHub Copilot** - Workspace and settings pre-configured
 - ✅ **Any AI IDE** - Standard project structure works everywhere
+
+**Cross-IDE Compatibility**: All AI assistants can access the same skills, MCP configurations, and documentation regardless of which IDE you use.
 
 ## Features
 
@@ -72,6 +75,10 @@ This is a **ready-to-use** template for creating AI agent projects, optimized fo
 
 ```
 .
+├── .github/agents/       # AI assistant configurations (GitHub Copilot, etc.)
+├── .cursor/              # Cursor-specific configurations  
+├── .cursorrules          # Cursor AI rules (compatible with Claude)
+├── .vscode/              # VS Code settings
 ├── agent.md              # Agent configuration and behavior
 ├── claude.md             # Claude AI instructions
 ├── skills/               # Reusable agent skills
@@ -87,6 +94,8 @@ This is a **ready-to-use** template for creating AI agent projects, optimized fo
 │   └── getting-started.md
 └── README.md             # This file
 ```
+
+**Note**: This project uses a **cross-IDE compatible** structure. All AI assistants (Claude Code, Cursor, GitHub Copilot) can read and use the same configurations and skills.
 
 ## Documentation
 

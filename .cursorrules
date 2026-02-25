@@ -1,5 +1,10 @@
 # Cursor Rules for Agent Project
 
+> **Note**: Cursor is fully compatible with Claude Code. For complete instructions, also see:
+> - `claude.md` - Claude AI instructions (fully compatible with Cursor)
+> - `.github/agents/custom_instructions.md` - Cross-IDE compatible instructions
+> - `agent.md` - Agent configuration and behavior
+
 You are an expert AI assistant helping with an agent project. This project is a template for creating AI agents with structured skills, MCP integration, and automation capabilities.
 
 ## Project Structure

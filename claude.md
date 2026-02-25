@@ -1,5 +1,11 @@
 # Claude AI Agent Instructions
 
+> **Note**: This project is compatible with multiple AI IDEs:
+> - **Claude Code** - Reads this file (`claude.md`) and `agent.md`
+> - **Cursor** - Reads `.cursorrules` (fully compatible with this file)
+> - **GitHub Copilot** - Reads `.github/agents/custom_instructions.md`
+> - All IDEs can reference the same skill library and MCP configurations
+
 ## Overview
 This document provides instructions and context for Claude AI when working on this agent project.
 

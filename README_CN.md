@@ -39,7 +39,9 @@ bash setup.sh
 
 ```
 create-agent-project/
-├── .cursorrules          # Cursor IDE 配置
+├── .github/agents/       # AI 助手配置（GitHub Copilot 等）
+├── .cursor/              # Cursor 专属配置
+├── .cursorrules          # Cursor AI 规则（与 Claude 完全兼容）
 ├── .vscode/              # VS Code 配置
 ├── agent.md              # 智能代理配置
 ├── claude.md             # Claude AI 指令
@@ -50,26 +52,19 @@ create-agent-project/
 │   ├── debugging.md          # 调试
 │   └── api-integration.md    # API 集成
 ├── mcp/                  # MCP 服务器配置
+│   ├── config.json
+│   └── README.md
 ├── docs/                 # 文档
 ├── examples/             # 自动化示例
 └── setup.sh              # 一键安装脚本
 ```
 
-### 🚀 使用方式
-
-#### 在 Cursor 中使用
-
-1. 克隆项目
-2. 用 Cursor 打开项目文件夹
-3. Cursor 会自动读取 `.cursorrules` 文件
-4. 开始构建你的智能代理！
-
-#### 在 Claude Code 中使用
-
+**注意**：本项目采用**跨 IDE 兼容**结构。所有 AI 助手（Claude Code、Cursor、GitHub Copilot）都可以读取和使用相同的配置和技能。
 1. 克隆项目
 2. 用 Claude Code 打开
 3. Claude 会自动读取 `claude.md` 和 `agent.md`
-4. 立即开始使用预定义的技能！
+4. **与 Cursor 完全兼容** - 使用相同的技能库和配置
+5. 立即开始使用预定义的技能！
 
 #### 在 VS Code 中使用
 
